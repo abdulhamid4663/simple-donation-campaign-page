@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/kSzjqNz/national-cancer-institute-701-FJcj-LAQ-unsplash.jpg",
+    "title": "Support Pediatric Healthcare",
+    "donation": "$100",
+    "card_bg": "#0052ff26",
+    "text_color": "#0052FF",
+    "category_bg": "#0052ff33",
+    "category": "Health",
+    "description": "Your generous contribution will help provide critical medical care to children in need. We aim to make a difference in the lives of young patients and ensure they receive the best possible healthcare services. Join us in our mission to bring smiles to these young faces."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/M9H4vZN/farhad-ibrahimzade-l09vh4u9e-E0-unsplash.jpg",
+    "title": "Nourishing Communities with Nutritious Meals",
+    "donation": "$50",
+    "card_bg": "#f8714726",
+    "text_color": "#F87147",
+    "category_bg": "#f8714733",
+    "category": "Food",
+    "description": "Help us combat hunger and malnutrition by supporting our nutrition program. Your contribution will enable us to provide wholesome and balanced meals to underserved communities. Together, we can make a positive impact on the well-being of individuals and families, ensuring no one goes to bed hungry."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/S7GQxf5/santi-vedri-O5-EMzfdxedg-unsplash.jpg",
+    "title": "Empower Tomorrow's Leaders through Education",
+    "donation": "$200",
+    "card_bg": "#ff444a26",
+    "text_color": "#FF444A",
+    "category_bg": "#ff444a33",
+    "category": "Education",
+    "description": "Invest in the future by supporting our scholarship fund. Your contribution will provide deserving students with access to quality education and the opportunity to pursue their dreams. Together, we can empower the next generation of leaders, innovators, and change-makers."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/PGkVyDH/spencer-backman-1-Kd-D2i-Bln-RI-unsplash.jpg",
+    "title": "Warmth in the Coldest Months",
+    "donation": "$75",
+    "card_bg": "#79c23f26",
+    "text_color": "#79C23F",
+    "category_bg": "#79c23f33",
+    "category": "Clothing",
+    "description": "Join us in our mission to provide warmth to those in need during the harsh winter season. Your generous donation will help us distribute warm clothing and blankets to individuals and families struggling to stay warm. Together, we can make winter more bearable for everyone."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/hWtrvmG/louis-reed-pwc-KF7-L4-no-unsplash.jpg",
+    "title": "Advancing Medical Research for a Healthier Future",
+    "donation": "$150",
+    "card_bg": "#0052ff26",
+    "text_color": "#0052FF",
+    "category_bg": "#0052ff33",
+    "category": "Health",
+    "description": "Support groundbreaking medical research initiatives that aim to find innovative solutions to health challenges. Your contribution will drive scientific discoveries, improve healthcare outcomes, and create a healthier future for all. Join us in the pursuit of medical excellence."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/XJLH1Xc/artur-rutkowski-Gd-TLa-Wam-FHw-unsplash.jpg",
+    "title": "Eradicate Hunger with Food Bank Support",
+    "donation": "$30",
+    "card_bg": "#f8714726",
+    "text_color": "#F87147",
+    "category_bg": "#f8714733",
+    "category": "Food",
+    "description": "Help us fight hunger by supporting our food bank program. Your donation will make a difference by providing food to families facing food insecurity. Together, we can ensure that no one goes to bed hungry, and every meal brings hope and nourishment."
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/VTSjTPs/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
+    "title": "Igniting Passion for STEM Education",
+    "donation": "$250",
+    "card_bg": "#ff444a26",
+    "text_color": "#FF444A",
+    "category_bg": "#ff444a33",
+    "category": "Education",
+    "description": "Support STEM (Science, Technology, Engineering, and Mathematics) education initiatives that inspire young minds. Your contribution will help provide resources, programs, and opportunities for students to excel in these critical fields. Together, we can shape a brighter future through education."
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/WNr8ztk/thom-holmes-9-GBw-Zrb-T0-QU-unsplash.jpg",
+    "title": "Clean Water for All",
+    "donation": "$50",
+    "card_bg": "#79c23f26",
+    "text_color": "#79C23F",
+    "category_bg": "#79c23f33",
+    "category": "Health",
+    "description": "Join us in our mission to provide clean and safe drinking water to communities in need. Your contribution will help build sustainable water infrastructure and ensure access to a basic necessity of life. Together, we can improve health and well-being."
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/b7pskx9/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.jpg",
+    "title": "Supporting Creative Arts Education",
+    "donation": "$80",
+    "card_bg": "#ff444a26",
+    "text_color": "#FF444A",
+    "category_bg": "#ff444a33",
+    "category": "Education",
+    "description": "Empower aspiring artists and creators by supporting arts education programs. Your contribution will provide students with the tools, resources, and mentorship needed to nurture their creative talents. Together, we can cultivate a vibrant and expressive artistic community."
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/FxJfvyh/stefan-c-asafti-9p6p-FEwq-w-I-unsplash.jpg",
+    "title": "Providing Shelter for the Homeless",
+    "donation": "$120",
+    "card_bg": "#79c23f26",
+    "text_color": "#79C23F",
+    "category_bg": "#79c23f33",
+    "category": "Clothing",
+    "description": "Help us provide shelter and warmth to homeless individuals during the cold winter months. Your generous donation will support the construction of shelters and distribution of essential clothing items. Together, we can make a difference in the lives of those experiencing homelessness."
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/6sY41Cr/pexels-vlada-karpovich-4050315.jpg",
+    "title": "Bright Futures for Young Minds",
+    "donation": "$150",
+    "card_bg": "#ff444a26",
+    "text_color": "#FF444A",
+    "category_bg": "#ff444a33",
+    "category": "Education",
+    "description": "Support quality education for children and teenagers, ensuring they have the tools and opportunities they need to build bright futures. Your contribution will fund educational programs, materials, and mentorship, nurturing the next generation of leaders and thinkers."
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/Jk1tVhx/clothing-drive.jpg",
+    "title": "Clothing Drive for the Needy",
+    "donation": "$40",
+    "card_bg": "#79c23f26",
+    "text_color": "#79C23F",
+    "category_bg": "#79c23f33",
+    "category": "Clothing",
+    "description": "Join our clothing drive to provide warm clothing to those in need. Your contribution will support our efforts to collect and distribute clothing items to individuals and families facing tough times. Together, we can make a positive impact and bring warmth to those less fortunate."
+  }
+]
