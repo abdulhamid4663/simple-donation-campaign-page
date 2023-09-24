@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/b7pskx9/ani-kolleshi-7jjn-J-QA9f-Y-unsplash.jpg",
+    "image": "https://i.ibb.co/tmQG3my/dushawn-jovic-5-DLRRe-Ndd-Ww-unsplash.jpg",
     "title": "Supporting Creative Arts Education",
     "donation": "$80",
     "card_bg": "#ff444a26",
@@ -100,25 +100,25 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/FxJfvyh/stefan-c-asafti-9p6p-FEwq-w-I-unsplash.jpg",
-    "title": "Providing Shelter for the Homeless",
+    "image": "https://i.ibb.co/jynxrmK/sven-brandsma-4nzj-x-Xc1-Pc-unsplash.jpg",
+    "title": "Warming Hearts and Bodies",
     "donation": "$120",
     "card_bg": "#79c23f26",
     "text_color": "#79C23F",
     "category_bg": "#79c23f33",
     "category": "Clothing",
-    "description": "Help us provide shelter and warmth to homeless individuals during the cold winter months. Your generous donation will support the construction of shelters and distribution of essential clothing items. Together, we can make a difference in the lives of those experiencing homelessness."
+    "description": "Join us in providing warmth and comfort to those in need during the cold winter months. Your generous donation will support our efforts to collect and distribute essential clothing items, ensuring that individuals and families stay warm and safe. Together, we can make a difference in the lives of those experiencing the challenges of winter."
   },
   {
     "id": 11,
     "image": "https://i.ibb.co/6sY41Cr/pexels-vlada-karpovich-4050315.jpg",
-    "title": "Bright Futures for Young Minds",
+    "title": "Empowering Individuals with Digital Literacy",
     "donation": "$150",
     "card_bg": "#ff444a26",
     "text_color": "#FF444A",
     "category_bg": "#ff444a33",
     "category": "Education",
-    "description": "Support quality education for children and teenagers, ensuring they have the tools and opportunities they need to build bright futures. Your contribution will fund educational programs, materials, and mentorship, nurturing the next generation of leaders and thinkers."
+    "description": "Bridge the digital divide by supporting our digital literacy program. Your contribution will empower individuals with essential digital skills, enabling them to thrive in the digital age. Together, we can create a more digitally inclusive society."
   },
   {
     "id": 12,
