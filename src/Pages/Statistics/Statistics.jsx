@@ -1,34 +1,43 @@
 import { useEffect, useState } from "react";
 import { getStoredFromLocalStorage } from "../../localStorage/localStorage";
 import { useLoaderData } from "react-router-dom";
-import { Legend, Pie, PieChart } from "recharts";
+import { Legend, Pie, PieChart, Tooltip} from "recharts";
 
 
 const Statistics = () => {
     const [donatedData, setDonatedData] = useState([]);
+    const [newTotalData, setNewTotalData] = useState([]);
     const allData = useLoaderData();
-    
-    useEffect(() => {
 
+    useEffect(() => {
+        
         const storedData = getStoredFromLocalStorage();
         setDonatedData(storedData);
+        
+        const removeExisting = allData.filter(data => !storedData.includes(data.id)) 
 
-    }, [])
+        setNewTotalData(removeExisting)
+
+    }, [allData])
 
     const data01 = [
         {
-            "name": "Group A",
-            "value": allData.length
+            "name": "Total Donation",
+            "value": newTotalData.length,
+            "fill": "red",
         },
         {
-            "name": "Group B",
-            "value": donatedData.length
+            "name": "My Donation",
+            "value": donatedData.length,
+            "fill": "green",
         },
     ];
+    
     return (
-        <div>
-            <PieChart width={1000} height={500}>
-                <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+        <div className="container mx-auto">
+            <PieChart width={1600} height={800}>
+                <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={250} />
+                <Tooltip  />
                 <Legend />
             </PieChart>
         </div>

@@ -15,7 +15,7 @@ const Donations = () => {
             const donatedData = data.filter(item => storedData.includes(item.id));
             setDonatedCards(donatedData);
         }
-    }, [])
+    }, [data])
 
     
 
@@ -27,9 +27,13 @@ const Donations = () => {
                 }
             </div>
             <div className="text-center">
-                <button onClick={()=> setShowAll(!showAll)} className="bg-[#009444] text-white py-4 px-7 text-base font-semibold rounded-lg">
-                    {showAll ? "See Less" : "Show All"}
+                {
+                    donatedCards.length <= 4 
+                    ? "" 
+                    : <button onClick={()=> setShowAll(!showAll)} className="bg-[#009444] text-white py-4 px-7 text-base font-semibold rounded-lg">
+                        {showAll ? "See Less" : "Show All"}
                     </button>
+                }
             </div>
         </div>
     );

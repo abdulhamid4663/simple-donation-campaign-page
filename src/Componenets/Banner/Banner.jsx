@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Banner = () => {
     return (
@@ -13,5 +13,9 @@ const Banner = () => {
         </div>
     );
 };
+
+Banner.propTypes = {
+    handleSearch: PropTypes.func
+}
 
 export default Banner;
