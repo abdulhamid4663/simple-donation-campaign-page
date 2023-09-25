@@ -25,14 +25,14 @@ const CardDetails = () => {
     return (
         <div className="container mx-auto px-4 mt-20 mb-32">
             <figure className="relative">
-                <img src={image} alt={`image of ${title}`} className="h-[43.75rem] w-full max-h-fit rounded-t-xl"
+                <img src={image} alt={`image of ${title}`} className="h-[25rem] lg:h-[43.75rem] w-full max-h-fit rounded-t-xl"
 
                 />
-                <div className="absolute bottom-0 left-0 py-9 px-9 w-full" style={myDivStyle}>
-                    <button onClick={() => handleDonate(id)} className="py-4 px-7 text-white rounded-md text-xl font-semibold" style={{ backgroundColor: text_color }}>Donate {donation}</button>
+                <div className="absolute bottom-0 left-0 py-5 px-5 lg:py-9 lg:px-9 w-full" style={myDivStyle}>
+                    <button onClick={() => handleDonate(id)} className="py-2 px-5 lg:py-4 lg:px-7 text-white rounded-md text-base lg:text-xl font-semibold" style={{ backgroundColor: text_color }}>Donate {donation}</button>
                 </div>
             </figure>
-            <h1 className="text-[#0B0B0B] text-5xl font-bold mb-6 mt-14">{title}</h1>
+            <h1 className="text-[#0B0B0B] text-2xl lg:text-5xl font-bold mb-6 mt-14">{title}</h1>
             <p className="text-base font-normal text-[#0B0B0BB2]">{description}</p>
             <ToastContainer
                 pauseOnHover={false}

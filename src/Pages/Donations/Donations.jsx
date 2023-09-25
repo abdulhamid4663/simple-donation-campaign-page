@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredFromLocalStorage } from "../../localStorage/localStorage";
-import DonationDetails from "../../Componenets/DonationDetails/DonationDetails";
+import DonationDetails from "../../Componenets/DonationCards/DonationCards";
 
 
 const Donations = () => {

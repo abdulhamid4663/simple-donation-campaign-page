@@ -7,7 +7,7 @@ const DonationDetails = ({ card }) => {
     return (
         <div className='flex flex-col lg:flex-row item-center mb-'>
             <div>
-                <img src={image} alt={`image of ${title}`} className='rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl w-full lg:w-[15.75rem] h-[12.5rem]' />
+                <img src={image} alt={`image of ${title}`} className='rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl w-full lg:w-[15.75rem] h-[18.75rem] lg:h-[12.5rem]' />
             </div>
             <div className='pl-6 h-full w-full flex flex-col justify-center rounded-b-xl lg:rounded-bl-none lg:rounded-r-xl py-6 lg:py-0' style={{ backgroundColor: card_bg }}>
                 <h2 className='max-w-fit py-1 px-3 rounded-md' style={{ color: text_color, backgroundColor: category_bg }}>{category}</h2>
