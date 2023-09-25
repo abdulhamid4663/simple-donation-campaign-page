@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getStoredFromLocalStorage } from "../../localStorage/localStorage";
 import { useLoaderData } from "react-router-dom";
-import { Legend, Pie, PieChart, Tooltip} from "recharts";
+import { ResponsiveContainer, PieChart, Pie, Legend, Tooltip } from "recharts";
 
 
 const Statistics = () => {
@@ -10,13 +10,13 @@ const Statistics = () => {
     const allData = useLoaderData();
 
     useEffect(() => {
-        
+
         const storedData = getStoredFromLocalStorage();
         setDonatedData(storedData);
-        
-        const removeExisting = allData.filter(data => !storedData.includes(data.id)) 
 
-        setNewTotalData(removeExisting)
+        const removeExisting = allData.filter(data => !storedData.includes(data.id));
+
+        setNewTotalData(removeExisting);
 
     }, [allData])
 
@@ -32,15 +32,15 @@ const Statistics = () => {
             "fill": "green",
         },
     ];
-    
+
     return (
-        <div className="container mx-auto">
-            <PieChart width={1600} height={800}>
-                <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={250} />
-                <Tooltip  />
-                <Legend />
+        <ResponsiveContainer width="100%" height={700}>
+            <PieChart>
+                <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={165} />
+                <Legend iconType="plainline" iconSize={40}/>
+                <Tooltip />
             </PieChart>
-        </div>
+        </ResponsiveContainer>
     );
 };
 
