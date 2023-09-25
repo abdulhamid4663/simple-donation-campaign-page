@@ -1,0 +1,8 @@
+.background-style {
+    background-image: url('../bg-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #FFFFFFF2;
+}

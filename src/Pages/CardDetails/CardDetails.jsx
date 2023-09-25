@@ -25,7 +25,7 @@ const CardDetails = () => {
     return (
         <div className="container mx-auto px-4 mt-20 mb-32">
             <figure className="relative">
-                <img src={image} alt={`image of ${title}`} className="h-[43.75rem] w-full max-h-fit"
+                <img src={image} alt={`image of ${title}`} className="h-[43.75rem] w-full max-h-fit rounded-t-xl"
 
                 />
                 <div className="absolute bottom-0 left-0 py-9 px-9 w-full" style={myDivStyle}>
