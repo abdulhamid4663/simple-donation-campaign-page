@@ -21,7 +21,7 @@ const Donations = () => {
 
     return (
         <div className="container mx-auto px-4 mt-20 mb-40">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
                 {
                     showAll ? donatedCards.map(card => <DonationDetails key={card.id} card={card} />) : donatedCards.slice(0,4).map(card => <DonationDetails key={card.id} card={card} />)
                 }

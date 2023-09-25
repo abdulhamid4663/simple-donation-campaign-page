@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 const Cards = () => {
 
     const [data, setData] = useState([]);
+    const [healthData, setHealthData] = useState([]);
 
     useEffect(() => {
         async function loadData() {
